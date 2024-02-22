@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-// Function to add two matrices and save the result in the first matrix
+
 void addMatrices(std::vector<std::vector<int>>& mat1, const std::vector<std::vector<int>>& mat2) {
     int rows = mat1.size();
     int columns = mat1[0].size();
@@ -13,7 +13,7 @@ void addMatrices(std::vector<std::vector<int>>& mat1, const std::vector<std::vec
     }
 }
 
-// Function to display a matrix
+
 void displayMatrix(const std::vector<std::vector<int>>& mat) {
     for (const auto& row : mat) {
         for (int value : row) {
